@@ -1,0 +1,13 @@
+torch>=2.1
+torchvision>=0.16
+transformers>=4.40
+datasets>=2.18
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+pillow
+tqdm
+tabulate

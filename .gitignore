@@ -1,0 +1,15 @@
+# Screenshots may be copyrighted or contain personal data: never commit them
+private_outputs/
+# Cached features and downloaded data
+cache/
+*.npz
+*.parquet
+*.arrow
+results.zip
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+.pytest_cache/
