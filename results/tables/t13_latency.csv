@@ -1,0 +1,5 @@
+gallery_size,early_fusion_ms,contrastive_ms,contrastive+rerank_ms
+1000,0.854,0.273,0.316
+10000,8.541,0.277,0.32
+100000,85.411,0.537,0.58
+1000000,854.111,4.407,4.45

@@ -1,0 +1,4 @@
+threshold,groups,largest_group_screens,largest_group_share_%,groups_above_cap
+0.95,3397,13822,61.66,1
+0.97,4898,5995,26.74,1
+0.98,5556,1188,5.3,1

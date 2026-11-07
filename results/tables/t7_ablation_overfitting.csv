@@ -1,0 +1,6 @@
+model,config,val_avg_R10,train−val gap at best epoch,train−val gap at last epoch,best epoch,train time (s),params (M)
+contrastive,C0 pilot,11.63 ± 0.27,29.7,37.5,23,13,1.05
+contrastive,C1 multi-positive,12.07 ± 0.23,42.3,55.8,12,12,1.05
+contrastive,C2 regularised,12.56 ± 0.21,28.9,33.6,30,23,1.05
+early,E0 pilot,8.75 ± 0.08,6.7,9.2,30,124,1.31
+early,E1 regularised,7.62 ± 0.23,2.5,3.4,36,142,1.31

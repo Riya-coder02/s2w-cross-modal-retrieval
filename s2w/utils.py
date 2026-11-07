@@ -102,10 +102,15 @@ class Reporter:
                 print(df)
 
     def fig(self, fig, name, private=False):
+        """Save a figure. Private figures (screenshots) are only written to private_outputs/ and never
+        displayed, so they cannot end up in a notebook saved to GitHub."""
         import matplotlib.pyplot as plt
         path = (self.priv if private else self.figdir) / f"{name}.png"
         fig.savefig(path, dpi=150, bbox_inches="tight")
-        plt.show()
+        if private:
+            print(f"[screenshot figure saved to {path} only; open it from the file browser]")
+        else:
+            plt.show()
         plt.close(fig)
         return path
 

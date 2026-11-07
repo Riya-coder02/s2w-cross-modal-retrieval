@@ -1,0 +1,3 @@
+,screens forced to train,test screens,test near-dup in train >0.95 (%),ridge i2t R@10,ridge t2i R@10,contrastive i2t R@10,contrastive t2i R@10,gain i2t,gain t2i
+main (cos>0.95),13822,2242,0.0,9.72,5.71,13.51,12.34,3.79,6.63
+sensitivity (cos>0.98),1188,2254,17.52,8.97,5.97,13.71,13.4,4.74,7.42
