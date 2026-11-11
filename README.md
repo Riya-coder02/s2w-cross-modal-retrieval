@@ -2,7 +2,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Riya-coder02/s2w-cross-modal-retrieval/blob/main/s2w_retrieval.ipynb)
 
-COMP 1030 Multimodal Data Analytics, Project 2.2. Implementation of the Group 21 proposal.
+COMP 1013 Multimodal Data Analytics, Project 2.2. Implementation of the Group 21 proposal.
 **Author:** Riya Ann John (a2926019)
 
 Designers and developers often need to find app screens that match a description ("login page with social sign-in buttons"), and the reverse: describe a screen they already have. This project builds and compares systems that retrieve **the right screenshot for a text summary (text→screen)** and **the right summary for a screenshot (screen→text)**.
